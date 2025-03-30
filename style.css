@@ -65,13 +65,13 @@ header {
 }
 
 .logo {
-    height: 60px;
-    border-radius: 50px;
+    height: 70px;
+    border-radius: 60px;
     transition: transform 0.3s;
 }
 
 .logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 
 nav {
@@ -166,8 +166,9 @@ footer a:hover {
 }
 
 .contenedor-media:hover {
-    transform: scale(1.08);
+    transform: scale(1.2);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: 7;
 }
 
 .contenedor-img {
@@ -278,7 +279,7 @@ footer a:hover {
 .content-container-cap {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     padding: 20px;
     align-items: center;
     width: 100%;
@@ -357,6 +358,7 @@ footer a:hover {
 
 .cap {
     background: var(--color-article-background);
+    box-shadow: none;
     padding: 20px;
     border-radius: 15px;
     width: 100%;
