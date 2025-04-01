@@ -361,18 +361,19 @@ footer a:hover {
     box-shadow: none;
     padding: 20px;
     border-radius: 15px;
-    width: 100%;
+    width: 90%;
 }
 
 .cap p {
-    line-height: 1.6;
+    line-height: 1.8;
     color: var(--color-text-default);
     margin: 0;
+    gap: 10px;
     white-space: pre-wrap;
 }
 
 .image {
-    width: 78%;
+    width: 90%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
