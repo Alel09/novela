@@ -367,8 +367,8 @@ footer a:hover {
 .cap p {
     line-height: 1.8;
     color: var(--color-text-default);
-    margin: 0;
-    gap: 10px;
+    margin: 15px;
+    gap: 15px;
     white-space: pre-wrap;
 }
 
